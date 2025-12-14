@@ -9,13 +9,11 @@ import org.spongepowered.asm.mixin.injection.ModifyVariable;
 public class MixinFontRenderer {
     @ModifyVariable(method = "getCharWidth", at = @At("STORE"), name = "j")
     private int modifyJ(int j0) {
-        System.out.println(j0);
         return j0 & 0b1111;
     }
 
     @ModifyVariable(method = "renderUnicodeChar", at = @At("STORE"), name = "j")
     private int modifyJ2(int j0) {
-        System.out.println(j0);
         return j0 & 0b1111;
     }
 }
