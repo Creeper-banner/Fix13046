@@ -4,4 +4,4 @@ This mods fixes [MC-13046](https://bugs.mojang.com/browse/MC/issues/MC-13046) fo
 
 The mod implements a simple mixin to fix this.
 
-The workspace is generally forked from GTNH's example mod repo.
+The workspace is originally forked from GTNH's example mod repo.
