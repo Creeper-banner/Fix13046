@@ -1,5 +1,12 @@
 // Add any additional repositories for your dependencies here.
 
 repositories {
-
+    maven {
+        name = "venmaven"
+        url = uri("https://mvn.ventooth.com/releases")
+    }
+    maven {
+        name = "falsepattern"
+        url = uri("https://mvn.falsepattern.com/releases")
+    }
 }
